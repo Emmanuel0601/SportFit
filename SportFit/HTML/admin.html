@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/admin.css">
+    <title>Panel de Administración</title>
+</head>
+<body>
+    <form action="../PHP/agregarProducto.php" method="post" enctype="multipart/form-data">
+        <h1>Panel de Administración</h1>
+        <label for="nombre">Nombre del Producto:</label>
+        <input type="text" name="nombre" required><br>
+
+        <label for="descripcion">Descripción:</label>
+        <textarea name="descripcion" rows="4" required></textarea><br>
+
+        <label for="precio">Precio:</label>
+        <input type="number" name="precio" step="0.01" required><br>
+
+        <label for="tipoProducto">Clasificación del producto: </label>
+        <select id="tipoProducto" name="tipoProducto" required>
+            <option value="Clasificación del producto" disabled selected>Clasificación del producto:</option>
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+            <option value="Articulos">Artículos</option>
+        </select><br>
+
+        <label for="imagen">Imagen del Producto:</label>
+        <input type="file" name="imagen" accept="image/*" required><br>
+
+        <input type="submit" value="Agregar Producto">
+        <a href="../HTML/iniciarSesionAdmin.html"><button type="button" id="atras" class="boton-atras">Atrás</button></a>
+    </form>
+</body>
+</html>

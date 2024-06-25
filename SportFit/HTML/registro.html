@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Formulario de Registro">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="../CSS/registro.css" type="text/css">
+</head>
+<body>
+    <section class="formulario">
+        <form action="../php/coneccionRegistrar.php" method="POST" name="registroForm">
+            <h2>Regístrate</h2>
+            <p>Nombre: <input type="text" name="Nombre" required></p>
+            <p>Apellidos: <input type="text" name="Apellidos" required></p>
+            <p>Correo electrónico: <input type="email" name="Correo" required></p>
+            <p>Teléfono: <input type="tel" name="Telefono" required></p>
+            <p>Fecha de Nacimiento: <input type="date" name="Fecha" required></p>
+            <p>Contraseña: <input type="password" name="Contraseña" id="contrasena" required></p>
+            <p>Confirmar Contraseña: <input type="password" name="ConfirmarContraseña" id="confirmarContrasena" required></p>
+
+            <p>
+                Acepto los términos y condiciones:
+                <input type="checkbox" name="AceptoTerminos" required>
+                <a href="../HTML/terminos_Condiciones.html" target="_blank">Leer términos</a>
+            </p>
+
+            <label for="PreguntaSeguridad">Pregunta de seguridad:</label>
+            <select id="PreguntaSeguridad" name="PreguntaSeguridad" required>
+                <option value="primera" disabled selected>Escoje una opción</option>
+                <option value="¿Cómo se llama tu padre?">¿Cómo se llama tu padre?</option>
+                <option value="¿Cómo se llama tu madre?">¿Cómo se llama tu madre?</option>
+                <option value="¿Cuál es tu color favorito?">¿Cuál es tu color favorito?</option>
+                <option value="¿Cuál es el nombre de tu primera mascota?">¿Cuál es el nombre de tu primera mascota?</option>
+                <option value="¿Cuál es tu animal favorito?">¿Cuál es tu animal favorito?</option>
+                <option value="¿Tu lugar de nacimiento?">¿Tu lugar de nacimiento?</option>
+                <option value="¿Platillo favorito?">¿Platillo favorito?</option>
+            </select>
+
+            <label for="RespuestaSeguridad">Respuesta de seguridad:</label>
+            <input type="text" id="RespuestaSeguridad" name="RespuestaSeguridad" required>
+
+            <input type="submit" value="ENVIAR" id="boton">
+
+            <p>
+                <a href="../HTML/iniciarSesion.html">Iniciar Sesión</a> | <a href="../index.html">Principal</a>
+            </p>
+        </form>
+    </section>
+</body>
+</html>

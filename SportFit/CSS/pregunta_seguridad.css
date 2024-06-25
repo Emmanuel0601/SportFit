@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-image: url(../IMAGENES/fondo.jpg);
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccc;
+}
+
+form input {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    color: white;
+}
+
+form p {
+    color: #fff; /* Cambiado a blanco */
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /* Añadida para centrar la pregunta */
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    text-align: center;
+}
+
+#boton {
+    background: #22594F;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 5px;
+    margin-right: 217px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#boton:hover {
+    background: #298372;
+}
+
+a.volver {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+a.volver:hover {
+    color: aqua; 
+}
+
+a.volver:active {
+    color: red;
+}
+
+#pregunta{
+    color: #0a2df1;
+    font-size: 1.5rem;
+}
+
+#pregunta:hover {
+color: aqua;
+}
+
+form label {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.boton-atras {
+    background: #22594F;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.boton-atras:hover {
+    background: #298372;
+}

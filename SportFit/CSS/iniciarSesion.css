@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-image: url(../IMAGENES/fondo.jpg);
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccc;
+}
+
+form input {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    color: white;
+}
+
+form p {
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.opciones a {
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.opciones a:hover {
+    text-decoration: underline;
+}
+
+#boton {
+    background: #31384A;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#boton:hover {
+    background: #1f232f;
+}
+
+a.principal {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+a.principal:hover {
+    color: aqua; 
+}
+
+a.principal:active {
+    color: red;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página de Inicio de Sesión">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../CSS/iniciarSesion.css" type="text/css">
+</head>
+<body>
+    <section class="formulario">
+        <form action="../php/coneccionIniciarSecion.php" method="POST">
+            <h2>Iniciar Sesión</h2>
+            <p>Correo electrónico: <input type="email" name="Correo"></p>
+            <p>Contraseña: <input type="password" name="Contraseña"></p>
+
+            <div class="opciones">
+                <a href="../HTML/registro.html">Registrarse</a>
+                <a href="../php/restaurar_contraseña.php">Olvidé la contraseña</a>
+            </div>
+
+            <input type="submit" value="INICIAR SESIÓN" id="boton">
+            <a href="../index.html" class="principal">Ir a la página principal</a>
+        </form>
+    </section>
+</body>
+</html>

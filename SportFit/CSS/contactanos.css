@@ -1,0 +1,141 @@
+#titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+#titulo:hover {
+color: #22594F;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #030303;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.back-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.back-text {
+    font-size: 16px;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .logo a:hover {
+    color: #22594F;
+}
+
+nav .link {
+    display: flex;
+    gap: 2rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 100px; 
+}
+
+.contacto h2 {
+    color: #333;
+}
+
+.info-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contacto-item {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contacto-item img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.contacto-item p {
+    margin: 0;
+}
+
+.contacto-item p span {
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button.enviar-btn {
+    background-color: #22594F; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button.enviar-btn:hover {
+    background-color: #298372; 
+}
+
+footer {
+    background-color:#030303;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; 
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Tienda de Gimnasio</title>
+    <link rel="stylesheet" href="../CSS/contactanos.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="back-link"><h1 id="titulo">SportFit</h1></a>
+            <a href="../index.html" class="back-link">
+                <img src="../IMAGENES/atras.png" alt="Volver Atrás" class="back-icon">
+                <span class="back-text">Volver Atrás</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="contacto">
+            <h2>Contáctanos</h2>
+            <p>¡Estamos aquí para ayudarte con cualquier pregunta o consulta que tengas!</p>
+            <div class="info-contacto">
+                <div class="contacto-item">
+                    <img src="../IMAGENES/telefono.png" alt="Teléfono">
+                    <p>Número de Teléfono: <br><span>829-635-9171</span></p>
+                </div>
+                <div class="contacto-item">
+                    <img src="../IMAGENES/correo.png" alt="Correo">
+                    <p>Correo Electrónico: <span>sportfit.info4@gmail.com</span></p>
+                </div>
+            </div>
+            <form action="../php/contactanos.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit" class="enviar-btn">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sportfit. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
